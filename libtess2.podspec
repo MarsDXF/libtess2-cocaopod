@@ -52,9 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Vasiliy" => "Freeneos@icloud.com" }
-  # Or just: spec.author    = "Vasiliy"
-  # spec.authors            = { "Vasiliy" => "Freeneos@icloud.com" }
+  spec.author             = { "Vasiliy Shaydullin" => "dxfproviewer@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Vasiliy"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/libtess2.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/MarsDXF/libtess2-cocaopod.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
