@@ -44,7 +44,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "Sources/Include/**/*.{h}", "Sources/Source/**/*.{h,c}", "Sources/Include/tesselator.h", "Sources/Source/bucketalloc.h", "Sources/Source/dict.h", "Sources/Source/geom.h", "Sources/Source/mesh.h", "Sources/Source/priorityq.h", "Sources/Source/sweep.h", "Sources/Source/tess.h",
+  spec.source_files  = "Sources/Source/**/*.{h,c}", "Sources/Source/tesselator.h", "Sources/Source/bucketalloc.h", "Sources/Source/dict.h", "Sources/Source/geom.h", "Sources/Source/mesh.h", "Sources/Source/priorityq.h", "Sources/Source/sweep.h", "Sources/Source/tess.h",
       "Sources/premake4.lua"
   
   
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.pod_target_xcconfig = {
-    "HEADER_SEARCH_PATHS" => "$(PODS_TARGET_SRCROOT)/Sources/Include (PODS_TARGET_SRCROOT)/Sources/Source $(PODS_TARGET_SRCROOT)/Sources/Include. (PODS_TARGET_SRCROOT)/Sources/Source.",
+    "HEADER_SEARCH_PATHS" => "$(PODS_TARGET_SRCROOT)/Sources/Source $(PODS_TARGET_SRCROOT)/Sources/Source.",
   }
   # spec.dependency "JSONKit", "~> 1.4"
 
