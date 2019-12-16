@@ -44,10 +44,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "Sources/Source/*.{h,c}", "Sources/Source/tesselator.h", "Sources/Source/bucketalloc.h", "Sources/Source/dict.h", "Sources/Source/geom.h", "Sources/Source/mesh.h", "Sources/Source/priorityq.h", "Sources/Source/sweep.h", "Sources/Source/tess.h",
-      "Sources/premake4.lua"
-  
-  
+  spec.source_files  = "Sources/Source/*.{h,c}", "Sources/Source/bucketalloc.h", "Sources/Source/dict.h", "Sources/Source/geom.h", "Sources/Source/mesh.h", "Sources/Source/priorityq.h", "Sources/Source/sweep.h", "Sources/Source/tess.h", "Sources/Source/tesselator.h", "Sources/premake4.lua"
 
   # spec.public_header_files = "Classes/**/*.h"
 
