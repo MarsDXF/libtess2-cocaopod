@@ -36,7 +36,7 @@
 extern "C" {
 #endif
 
-#include "tesselator.h"
+#include "Sources/Source/tesselator.h"
 	
 struct BucketAlloc *createBucketAlloc( TESSalloc* alloc, const char *name,
 									  unsigned int itemSize, unsigned int bucketSize );
